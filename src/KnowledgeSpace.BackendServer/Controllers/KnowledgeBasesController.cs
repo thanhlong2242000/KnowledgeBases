@@ -214,7 +214,8 @@ namespace KnowledgeSpace.BackendServer.Controllers
                     CategoryName = u.c.Name,
                     NumberOfVotes = u.k.NumberOfVotes,
                     CreateDate = u.k.CreateDate,
-                    NumberOfComments = u.k.NumberOfComments
+                    NumberOfComments = u.k.NumberOfComments,
+                    NumberOfReports = u.k.NumberOfReports
                 })
                 .ToListAsync();
 

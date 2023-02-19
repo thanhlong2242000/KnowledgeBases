@@ -18,6 +18,7 @@ export class RolesAssignComponent implements OnInit {
   public title: string;
   public userId: string;
   public existingRoles: any[];
+gridHeight: any;
 
   constructor(
     public bsModalRef: BsModalRef,
